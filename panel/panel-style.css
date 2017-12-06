@@ -1,0 +1,77 @@
+/* FONT */
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+*:not(.fa){
+    font-family: 'Lato', sans-serif !important;
+}
+.resultSlideshow, .title{
+    margin-top: 3%;
+}
+.spaced-bottom{
+    margin-bottom: 3%;
+}
+
+/* AUTH */
+.login-form {
+    font: 16px/2em Lato, serif;
+    margin: 100px auto;
+    max-width: 400px;
+}
+#links{
+    text-transform: uppercase;
+}
+form[role=login] {
+    color: #5d5d5d;
+    background: #455A64;
+    padding: 26px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+form[role=login] img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    width: 100%;
+}
+form[role=login] input, form[role=login] button {
+    font-size: 18px;
+    margin: 16px 0;
+}
+form[role=login] > div {
+    text-align: center;
+}
+.form-links {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 50px;
+}
+.form-links a {
+    color: #fff;
+}
+
+/* EDIT */
+.bordered{
+    border: 1px solid #757575;
+    padding-bottom: 5px;
+}
+.edit-field{
+    width: 100%;
+}
+.title, .control-label{
+    text-transform: uppercase;
+}
+.admin-buttons{
+    display: inline-block;
+    width: 100%;
+    padding-top: 7px;
+}
+.btn, .btn-back{
+    cursor: pointer;
+}
+.event{
+    margin-bottom: 15px;
+}
+.hidden{
+    display: none !important;
+}
